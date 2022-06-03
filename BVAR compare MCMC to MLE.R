@@ -1,4 +1,4 @@
-install.packages("BVAR")
+# install.packages("BVAR")
 
 # Load the package
 library("BVAR")
@@ -24,7 +24,7 @@ set.seed(248)
 x2 <- bvar(data, lags = 6)
 
 set.seed(248)
-source("K:/INCORE/Derek Stockman/DCS/R/projects/BVAR/bvar_mle.R")
+source("~your path~/bvar_mle.R")
 x3 <- bvar_mle(data, lags = 6)
 x3[["beta"]]
 x3[["sigma"]]
