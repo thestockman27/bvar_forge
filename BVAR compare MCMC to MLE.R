@@ -22,7 +22,7 @@ x1 <- bvar(data,
            )
 
 set.seed(248)
-source("K:/INCORE/Derek Stockman/DCS/R/projects/BVAR/bvar_mle.R")
+source("~your_path/bvar_mle.R")
 x2 <- bvar_mle(data, lags = 6)
 
 summary(x1)
